@@ -1,0 +1,5 @@
+#UART Test, Baudrate:115200, Data: 01100111
+force clk 1 0ns, 0 {10ns} -r 20ns
+force rst 1 0ns, 0 @40ns
+force rx 1 0ns, 0 25920ns, 1 34560ns, 0 60480ns, 1 77760ns, 0 95040ns, 1 103680ns -repeat 103680ns
+run 150us

@@ -1,0 +1,34 @@
+-- Author: 	Adam Hrastnik
+-- Date:	18.01.2018
+
+WIDTH=8;
+DEPTH=1024;
+
+ADDRESS_RADIX=HEX;
+DATA_RADIX=HEX;
+
+CONTENT BEGIN
+-- Interrupt Vector Table
+00	: 70;
+01	: 08;
+02	: 70;
+03	: 08;
+04	: 70;
+05	: 08;
+06	: 70;
+07	: 08;
+-- Program
+08	: 45;-- Load x47 to R1
+09	: 47;
+0A	: 41;-- Load x46 to R0
+0B	: 46;
+0C	: 81;-- Add R0 and R1 together
+0D	: 54;-- Store R0 to x46
+0E	: 46;
+0F	: 60;-- Jump to x0A
+10	: 0A;
+-- Safety Return
+11	: 60;-- Jump to x08
+12	: 08;
+[13..3FF] : 00;
+END;

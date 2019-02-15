@@ -1,0 +1,36 @@
+Quartus Prime Archive log --	C:/Users/adamh/Documents/Intel/QuartusPrime/NWI_108A1/NWI_108A1.qarlog
+
+Archive:	C:/Users/adamh/Documents/Intel/QuartusPrime/NWI_108A1/NWI_108A1.qar
+Date:		Wed Jan 24 20:05:37 2018
+Quartus Prime		17.0.0 Build 595 04/25/2017 SJ Lite Edition
+
+	=========== Files Selected: ===========
+C:/Users/adamh/Documents/Intel/QuartusPrime/NWI_108A1/ALU.vhd
+C:/Users/adamh/Documents/Intel/QuartusPrime/NWI_108A1/BUS_MASTER.vhd
+C:/Users/adamh/Documents/Intel/QuartusPrime/NWI_108A1/BUS_SLAVE.vhd
+C:/Users/adamh/Documents/Intel/QuartusPrime/NWI_108A1/CLK_GEN.vhd
+C:/Users/adamh/Documents/Intel/QuartusPrime/NWI_108A1/CPU.vhd
+C:/Users/adamh/Documents/Intel/QuartusPrime/NWI_108A1/INSTRUCTS.vhd
+C:/Users/adamh/Documents/Intel/QuartusPrime/NWI_108A1/INTERRUPT.vhd
+C:/Users/adamh/Documents/Intel/QuartusPrime/NWI_108A1/IO_PORT.vhd
+C:/Users/adamh/Documents/Intel/QuartusPrime/NWI_108A1/IO_Port.mif
+C:/Users/adamh/Documents/Intel/QuartusPrime/NWI_108A1/IO_Timer.mif
+C:/Users/adamh/Documents/Intel/QuartusPrime/NWI_108A1/MEMORY.vhd
+C:/Users/adamh/Documents/Intel/QuartusPrime/NWI_108A1/NWI_108A1.qpf
+C:/Users/adamh/Documents/Intel/QuartusPrime/NWI_108A1/NWI_108A1.qsf
+C:/Users/adamh/Documents/Intel/QuartusPrime/NWI_108A1/NWI_108A1.sdc
+C:/Users/adamh/Documents/Intel/QuartusPrime/NWI_108A1/NWI_108A1.vhd
+C:/Users/adamh/Documents/Intel/QuartusPrime/NWI_108A1/RAM.cmp
+C:/Users/adamh/Documents/Intel/QuartusPrime/NWI_108A1/RAM.mif
+C:/Users/adamh/Documents/Intel/QuartusPrime/NWI_108A1/RAM.qip
+C:/Users/adamh/Documents/Intel/QuartusPrime/NWI_108A1/RAM.vhd
+C:/Users/adamh/Documents/Intel/QuartusPrime/NWI_108A1/ROM.cmp
+C:/Users/adamh/Documents/Intel/QuartusPrime/NWI_108A1/ROM.qip
+C:/Users/adamh/Documents/Intel/QuartusPrime/NWI_108A1/ROM.vhd
+C:/Users/adamh/Documents/Intel/QuartusPrime/NWI_108A1/TIMER.vhd
+C:/Users/adamh/Documents/Intel/QuartusPrime/NWI_108A1/UART.vhd
+c:/intelfpga_lite/17.0/quartus/bin64/assignment_defaults.qdf
+	======= Total: 25 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

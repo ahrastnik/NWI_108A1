@@ -1,0 +1,211 @@
+# Reading C:/intelFPGA_lite/17.1/modelsim_ase/tcl/vsim/pref.tcl
+# do NWI_108A1_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/17.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/Adam-Martin/Documents/Intel/QuartusPrime/NWI_108A1/NWI_108A1.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:37:58 on Aug 26,2018
+# vcom -reportprogress 300 -93 -work work C:/Users/Adam-Martin/Documents/Intel/QuartusPrime/NWI_108A1/NWI_108A1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity NWI_108A1
+# -- Compiling architecture Malibu of NWI_108A1
+# End time: 13:37:58 on Aug 26,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/Adam-Martin/Documents/Intel/QuartusPrime/NWI_108A1/INSTRUCTS.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:37:58 on Aug 26,2018
+# vcom -reportprogress 300 -93 -work work C:/Users/Adam-Martin/Documents/Intel/QuartusPrime/NWI_108A1/INSTRUCTS.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package INSTRUCTS
+# End time: 13:37:58 on Aug 26,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/Adam-Martin/Documents/Intel/QuartusPrime/NWI_108A1/TIMER.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:37:58 on Aug 26,2018
+# vcom -reportprogress 300 -93 -work work C:/Users/Adam-Martin/Documents/Intel/QuartusPrime/NWI_108A1/TIMER.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity TIMER
+# -- Compiling architecture Malibu of TIMER
+# End time: 13:37:58 on Aug 26,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/Adam-Martin/Documents/Intel/QuartusPrime/NWI_108A1/UART.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:37:58 on Aug 26,2018
+# vcom -reportprogress 300 -93 -work work C:/Users/Adam-Martin/Documents/Intel/QuartusPrime/NWI_108A1/UART.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity UART
+# -- Compiling architecture Malibu of UART
+# End time: 13:37:59 on Aug 26,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/Adam-Martin/Documents/Intel/QuartusPrime/NWI_108A1/BUS_MASTER.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:37:59 on Aug 26,2018
+# vcom -reportprogress 300 -93 -work work C:/Users/Adam-Martin/Documents/Intel/QuartusPrime/NWI_108A1/BUS_MASTER.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity BUS_MASTER
+# -- Compiling architecture Malibu of BUS_MASTER
+# End time: 13:37:59 on Aug 26,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/Adam-Martin/Documents/Intel/QuartusPrime/NWI_108A1/ROM.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:37:59 on Aug 26,2018
+# vcom -reportprogress 300 -93 -work work C:/Users/Adam-Martin/Documents/Intel/QuartusPrime/NWI_108A1/ROM.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package altera_mf_components
+# -- Compiling entity ROM
+# -- Compiling architecture SYN of rom
+# End time: 13:37:59 on Aug 26,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/Adam-Martin/Documents/Intel/QuartusPrime/NWI_108A1/RAM.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:37:59 on Aug 26,2018
+# vcom -reportprogress 300 -93 -work work C:/Users/Adam-Martin/Documents/Intel/QuartusPrime/NWI_108A1/RAM.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package altera_mf_components
+# -- Compiling entity RAM
+# -- Compiling architecture SYN of ram
+# End time: 13:37:59 on Aug 26,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/Adam-Martin/Documents/Intel/QuartusPrime/NWI_108A1/BUS_SLAVE.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:37:59 on Aug 26,2018
+# vcom -reportprogress 300 -93 -work work C:/Users/Adam-Martin/Documents/Intel/QuartusPrime/NWI_108A1/BUS_SLAVE.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity BUS_SLAVE
+# -- Compiling architecture Malibu of BUS_SLAVE
+# End time: 13:37:59 on Aug 26,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/Adam-Martin/Documents/Intel/QuartusPrime/NWI_108A1/IO_PORT.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:37:59 on Aug 26,2018
+# vcom -reportprogress 300 -93 -work work C:/Users/Adam-Martin/Documents/Intel/QuartusPrime/NWI_108A1/IO_PORT.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity IO_PORT
+# -- Compiling architecture Malibu of IO_PORT
+# End time: 13:37:59 on Aug 26,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/Adam-Martin/Documents/Intel/QuartusPrime/NWI_108A1/ALU.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:37:59 on Aug 26,2018
+# vcom -reportprogress 300 -93 -work work C:/Users/Adam-Martin/Documents/Intel/QuartusPrime/NWI_108A1/ALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package INSTRUCTS
+# -- Compiling entity ALU
+# -- Compiling architecture Malibu of ALU
+# End time: 13:37:59 on Aug 26,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/Adam-Martin/Documents/Intel/QuartusPrime/NWI_108A1/CPU.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:37:59 on Aug 26,2018
+# vcom -reportprogress 300 -93 -work work C:/Users/Adam-Martin/Documents/Intel/QuartusPrime/NWI_108A1/CPU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package INSTRUCTS
+# -- Compiling entity CPU
+# -- Compiling architecture Malibu of CPU
+# End time: 13:38:00 on Aug 26,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/Adam-Martin/Documents/Intel/QuartusPrime/NWI_108A1/INTERRUPT.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:38:00 on Aug 26,2018
+# vcom -reportprogress 300 -93 -work work C:/Users/Adam-Martin/Documents/Intel/QuartusPrime/NWI_108A1/INTERRUPT.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package INSTRUCTS
+# -- Compiling entity INTERRUPT
+# -- Compiling architecture Malibu of INTERRUPT
+# End time: 13:38:00 on Aug 26,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim work.nwi_108a1
+# vsim work.nwi_108a1 
+# Start time: 13:38:25 on Aug 26,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.nwi_108a1(malibu)
+# Loading work.instructs
+# Loading work.cpu(malibu)
+# Loading work.alu(malibu)
+# Loading work.interrupt(malibu)
+# Loading altera_mf.altera_mf_components
+# Loading work.rom(syn)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading altera_mf.altera_common_conversion(body)
+# Loading altera_mf.altera_device_families(body)
+# Loading altera_mf.altsyncram(translated)
+# Loading work.ram(syn)
+# Loading work.bus_master(malibu)
+# Loading work.timer(malibu)
+# Loading work.bus_slave(malibu)
+# Loading work.uart(malibu)
+# Loading work.io_port(malibu)
+do C:/Users/Adam-Martin/Documents/Intel/QuartusPrime/NWI_108A1/simulation/modelsim/cpu_sim.do
+# ** Error: (vish-4014) No objects found matching '/nwi_108a1/pin1'.
+# Executing ONERROR command at macro C:\Users\Adam-Martin\Documents\Intel\QuartusPrime\NWI_108A1\simulation\modelsim\cpu_sim.do line 10
+# ** Error: (vish-4014) No objects found matching '/nwi_108a1/pin2'.
+# Executing ONERROR command at macro C:\Users\Adam-Martin\Documents\Intel\QuartusPrime\NWI_108A1\simulation\modelsim\cpu_sim.do line 11
+# ** Error: (vish-4014) No objects found matching '/nwi_108a1/tx'.
+# Executing ONERROR command at macro C:\Users\Adam-Martin\Documents\Intel\QuartusPrime\NWI_108A1\simulation\modelsim\cpu_sim.do line 12
+# ** Error: (vish-4014) No objects found matching '/nwi_108a1/rx'.
+# Executing ONERROR command at macro C:\Users\Adam-Martin\Documents\Intel\QuartusPrime\NWI_108A1\simulation\modelsim\cpu_sim.do line 13
+# ** Error: (vish-4014) No objects found matching '/nwi_108a1/U_CPU/ram_adr'.
+# Executing ONERROR command at macro C:\Users\Adam-Martin\Documents\Intel\QuartusPrime\NWI_108A1\simulation\modelsim\cpu_sim.do line 24
+# ** Error: (vish-4014) No objects found matching '/nwi_108a1/U_CPU/prog_adr'.
+# Executing ONERROR command at macro C:\Users\Adam-Martin\Documents\Intel\QuartusPrime\NWI_108A1\simulation\modelsim\cpu_sim.do line 25
+# ** Error: (vish-4014) No objects found matching '/nwi_108a1/U_CPU/prog_data'.
+# Executing ONERROR command at macro C:\Users\Adam-Martin\Documents\Intel\QuartusPrime\NWI_108A1\simulation\modelsim\cpu_sim.do line 26
+# ** Error: (vish-4014) No objects found matching '/nwi_108a1/U_CPU/next_data'.
+# Executing ONERROR command at macro C:\Users\Adam-Martin\Documents\Intel\QuartusPrime\NWI_108A1\simulation\modelsim\cpu_sim.do line 27
+# ** Error: (vish-4014) No objects found matching '/nwi_108a1/U_CPU/ram_data'.
+# Executing ONERROR command at macro C:\Users\Adam-Martin\Documents\Intel\QuartusPrime\NWI_108A1\simulation\modelsim\cpu_sim.do line 28
+# ** Error: (vish-4014) No objects found matching '/nwi_108a1/U_CPU/dout'.
+# Executing ONERROR command at macro C:\Users\Adam-Martin\Documents\Intel\QuartusPrime\NWI_108A1\simulation\modelsim\cpu_sim.do line 29
+# ** Error: (vish-4014) No objects found matching '/nwi_108a1/MEM/datamem'.
+# Executing ONERROR command at macro C:\Users\Adam-Martin\Documents\Intel\QuartusPrime\NWI_108A1\simulation\modelsim\cpu_sim.do line 39
+# ** Error: (vish-4014) No objects found matching '/nwi_108a1/MEM/progmem'.
+# Executing ONERROR command at macro C:\Users\Adam-Martin\Documents\Intel\QuartusPrime\NWI_108A1\simulation\modelsim\cpu_sim.do line 40
+# End time: 13:44:56 on Aug 26,2018, Elapsed time: 0:06:31
+# Errors: 36, Warnings: 0

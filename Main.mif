@@ -1,0 +1,55 @@
+-- Author: 	Adam Hrastnik
+-- Date:	18.01.2018
+
+
+WIDTH=8;
+DEPTH=1024;
+
+ADDRESS_RADIX=HEX;
+DATA_RADIX=HEX;
+
+CONTENT BEGIN
+-- Interrupt Vector Table
+00	: 70;
+01	: 08;
+02	: 70;
+03	: 19;
+04	: 70;
+05	: 08;
+06	: 70;
+07	: 1C;
+-- Program
+-- Peripheral Initialization
+08	: 41;
+09	: 08;
+0A	: 54;
+0B	: 00;
+0C	: 41;
+0D	: 06;
+-- Main
+0E	: 45;
+0F	: 07;
+10	: 81;
+11	: 54;
+12	: 06;
+13	: 60;
+14	: 0E;
+15	: 70;
+16	: 19;
+17	: 60;
+18	: 0E;
+-- Function 1
+19	: 49;
+1A	: 06;
+1B	: 10;
+-- Function 2
+1C	: 4D;
+1D	: 06;
+1E	: 60;
+1F	: 1C;
+20	: 10;
+-- Safety Return
+21	: 60;
+22	: 08;
+[23..3FF] : 00;
+END;

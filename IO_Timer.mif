@@ -1,0 +1,44 @@
+-- Author: 	Adam Hrastnik
+-- Date:	18.01.2018
+
+WIDTH=8;
+DEPTH=1024;
+
+ADDRESS_RADIX=HEX;
+DATA_RADIX=HEX;
+
+CONTENT BEGIN
+-- Interrupt Vector Table
+00	: 70;
+01	: 08;
+02	: 70;
+03	: 08;
+04	: 70;
+05	: 08;
+06	: 70;
+07	: 08;
+-- Program
+-- Init
+08	: 41;-- Load Timer Config from RAM to R0
+09	: 48;
+0A	: 45;-- Load Timer Compare Value from RAM to R1
+0B	: 44;
+0C	: 54;-- Store Timer Config to Timer TCON Register from R0
+0D	: 11;
+0E	: 55;-- Store Timer Compare to Timer CMPA Register from R1
+0F	: 12;
+10	: 45;-- Load 1 to R1
+11	: 47;
+-- Main
+12	: 41;-- Load Timer value to R0
+13	: 10;
+14	: 81;-- Add R0 and R1 together
+15	: 54;-- Store R0 to RAM x46
+16	: 46;
+17	: 60;-- Jump to Main
+18	: 12;
+-- Safety Return
+19	: 60;-- Jump to Program Start
+1A	: 08;
+[1B..3FF] : 00;
+END;

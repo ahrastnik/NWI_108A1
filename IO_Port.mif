@@ -1,0 +1,74 @@
+-- Author: 	Adam Hrastnik
+-- Date:	23.01.2018
+
+WIDTH=8;
+DEPTH=1024;
+
+ADDRESS_RADIX=HEX;
+DATA_RADIX=HEX;
+
+CONTENT BEGIN
+-- Interrupt Vector Table
+00	: 70;
+01	: 08;
+02	: 70;
+03	: 08;
+04	: 70;
+05	: 08;
+06	: 70;
+07	: 29;
+-- Program
+-- Initialization
+08	: 41;-- Load Timer Configure from RAM to R0
+09	: 48;
+0A	: 45;-- Load Timer Compare Value from RAM to R1
+0B	: 44;
+0C	: 49;-- Load Pin Direction from RAM to R2
+0D	: 41;
+0E	: 4D;-- Load Pin Interrupt Enable from RAM to R3
+0F	: 42;
+10	: 54;-- Store Timer Configure to Timer TCON Register from R0
+11	: 11;
+12	: 55;-- Store Timer Compare to Timer CMPA Register from R1
+13	: 12;
+14	: 56;-- Store Pin Direction to Pin pin Register from R2
+15	: 25;
+16	: 56;-- Store Pin Interrupt Enable to Pin IRE Register from R2
+17	: 26;
+18	: 45;-- Load 1 to R1
+19	: 47;
+-- Main
+1A	: 41;-- Load Timer value from RAM to R0
+1B	: 10;
+1C	: 81;-- Add R0 and R1 together
+1D	: 54;-- Store R0 to RAM x46
+1E	: 46;
+1F	: 60;-- Jump to Main
+20	: 1A;
+-- Function 256ms
+21	: 41;-- Load Pin data from RAM to R0
+22	: 24;
+23	: 45;-- Load mask from RAM to R1
+24	: 40;
+25	: C1;-- XOR Pin data and Mask
+26	: 54;-- Store R0 to Pin Data
+27	: 24;
+28	: 10;-- Return to Main
+-- Timer ISR
+29	: 41;-- Load Counter value from RAM to R0
+2A	: 42;
+2B	: 45;-- Load 1 to R1
+2C	: 47;
+2D	: 81;-- Increment Counter
+2E	: 54;-- Store Counter value in Ram from R0
+2F	: 42;
+30	: 32;-- Jump if the counter overflows
+31	: 10;-- Return to Main
+32	: 70;-- Call Function 256ms
+33	: 21;
+34	: 10;-- Return to Main
+-- Safety Return
+35	: 60;-- Jump to Program Start
+36	: 08;
+[37..3FF] : 00;
+END;

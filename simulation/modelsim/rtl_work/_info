@@ -1,0 +1,489 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Adam-Martin/Documents/Intel/QuartusPrime/NWI_108A1/simulation/modelsim
+Ealu
+Z1 w1516812324
+Z2 DPx4 work 9 instructs 0 22 ;_UjV?Y]h>7ROdVzVC<f:3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R0
+Z6 8C:/Users/Adam-Martin/Documents/Intel/QuartusPrime/NWI_108A1/ALU.vhd
+Z7 FC:/Users/Adam-Martin/Documents/Intel/QuartusPrime/NWI_108A1/ALU.vhd
+l0
+L7
+V4A[a0>PDGHLKAK:9AROKk3
+!s100 oWFAbVhIUXoBn;aUgeooK3
+Z8 OV;C;10.5b;63
+31
+Z9 !s110 1535283479
+!i10b 1
+Z10 !s108 1535283479.000000
+Z11 !s90 -reportprogress|300|-93|-work|work|C:/Users/Adam-Martin/Documents/Intel/QuartusPrime/NWI_108A1/ALU.vhd|
+Z12 !s107 C:/Users/Adam-Martin/Documents/Intel/QuartusPrime/NWI_108A1/ALU.vhd|
+!i113 1
+Z13 o-93 -work work
+Z14 tExplicit 1 CvgOpt 0
+Amalibu
+R2
+R3
+R4
+R5
+DEx4 work 3 alu 0 22 4A[a0>PDGHLKAK:9AROKk3
+l18
+L16
+V5@l[hUQL8bGP>WVi2LTea3
+!s100 dA`BoHDeC0WYIf98jYck60
+R8
+31
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Ebus_master
+Z15 w1516551166
+R3
+R4
+R5
+R0
+Z16 8C:/Users/Adam-Martin/Documents/Intel/QuartusPrime/NWI_108A1/BUS_MASTER.vhd
+Z17 FC:/Users/Adam-Martin/Documents/Intel/QuartusPrime/NWI_108A1/BUS_MASTER.vhd
+l0
+L5
+Vc2QePYDe;KQAUMW<SZ=9S2
+!s100 B>0[j^OkR@bW8jCV]QgEW3
+R8
+31
+R9
+!i10b 1
+R10
+Z18 !s90 -reportprogress|300|-93|-work|work|C:/Users/Adam-Martin/Documents/Intel/QuartusPrime/NWI_108A1/BUS_MASTER.vhd|
+Z19 !s107 C:/Users/Adam-Martin/Documents/Intel/QuartusPrime/NWI_108A1/BUS_MASTER.vhd|
+!i113 1
+R13
+R14
+Amalibu
+R3
+R4
+R5
+DEx4 work 10 bus_master 0 22 c2QePYDe;KQAUMW<SZ=9S2
+l36
+L32
+VN`VMF_U:o[2LKCH:[>6BD1
+!s100 3DKYK>;UUGPA=A9i7n:KB2
+R8
+31
+R9
+!i10b 1
+R10
+R18
+R19
+!i113 1
+R13
+R14
+Ebus_slave
+Z20 w1516234850
+R3
+R4
+R5
+R0
+Z21 8C:/Users/Adam-Martin/Documents/Intel/QuartusPrime/NWI_108A1/BUS_SLAVE.vhd
+Z22 FC:/Users/Adam-Martin/Documents/Intel/QuartusPrime/NWI_108A1/BUS_SLAVE.vhd
+l0
+L5
+VAB19nWAIJEb7iE@c_9Zez2
+!s100 809KF_U?1Q2jIKF@e^@1U2
+R8
+31
+R9
+!i10b 1
+R10
+Z23 !s90 -reportprogress|300|-93|-work|work|C:/Users/Adam-Martin/Documents/Intel/QuartusPrime/NWI_108A1/BUS_SLAVE.vhd|
+Z24 !s107 C:/Users/Adam-Martin/Documents/Intel/QuartusPrime/NWI_108A1/BUS_SLAVE.vhd|
+!i113 1
+R13
+R14
+Amalibu
+R3
+R4
+R5
+DEx4 work 9 bus_slave 0 22 AB19nWAIJEb7iE@c_9Zez2
+l24
+L22
+VK88kzFalc;z6SUD@D=gk43
+!s100 CiYcH:nC3K^aB=ZeQCGWO0
+R8
+31
+R9
+!i10b 1
+R10
+R23
+R24
+!i113 1
+R13
+R14
+Ecpu
+Z25 w1516812280
+R2
+R3
+R4
+R5
+R0
+Z26 8C:/Users/Adam-Martin/Documents/Intel/QuartusPrime/NWI_108A1/CPU.vhd
+Z27 FC:/Users/Adam-Martin/Documents/Intel/QuartusPrime/NWI_108A1/CPU.vhd
+l0
+L7
+VYShe:XN6m:^Sdn<Q5:8T=1
+!s100 O4@NQ`nH8CcdFR]LNXQCA0
+R8
+31
+Z28 !s110 1535283480
+!i10b 1
+R10
+Z29 !s90 -reportprogress|300|-93|-work|work|C:/Users/Adam-Martin/Documents/Intel/QuartusPrime/NWI_108A1/CPU.vhd|
+Z30 !s107 C:/Users/Adam-Martin/Documents/Intel/QuartusPrime/NWI_108A1/CPU.vhd|
+!i113 1
+R13
+R14
+Amalibu
+R2
+R3
+R4
+R5
+DEx4 work 3 cpu 0 22 YShe:XN6m:^Sdn<Q5:8T=1
+l76
+L22
+VfVFNoZ0WNlOW5KomU3c`H0
+!s100 @n^=B7MOg]T[n9ZE>d6OO2
+R8
+31
+R28
+!i10b 1
+R10
+R29
+R30
+!i113 1
+R13
+R14
+Pinstructs
+R3
+R4
+R5
+w1516803696
+R0
+8C:/Users/Adam-Martin/Documents/Intel/QuartusPrime/NWI_108A1/INSTRUCTS.vhd
+FC:/Users/Adam-Martin/Documents/Intel/QuartusPrime/NWI_108A1/INSTRUCTS.vhd
+l0
+L5
+V;_UjV?Y]h>7ROdVzVC<f:3
+!s100 CWDT06FQ=G3QWj3o=^QTg3
+R8
+31
+Z31 !s110 1535283478
+!i10b 1
+Z32 !s108 1535283478.000000
+!s90 -reportprogress|300|-93|-work|work|C:/Users/Adam-Martin/Documents/Intel/QuartusPrime/NWI_108A1/INSTRUCTS.vhd|
+!s107 C:/Users/Adam-Martin/Documents/Intel/QuartusPrime/NWI_108A1/INSTRUCTS.vhd|
+!i113 1
+R13
+R14
+Einterrupt
+Z33 w1513446756
+R2
+R3
+R4
+R5
+R0
+Z34 8C:/Users/Adam-Martin/Documents/Intel/QuartusPrime/NWI_108A1/INTERRUPT.vhd
+Z35 FC:/Users/Adam-Martin/Documents/Intel/QuartusPrime/NWI_108A1/INTERRUPT.vhd
+l0
+L7
+VVB<h=khmU<:OTaLjfXS?R1
+!s100 0OY<cPFBMC:z9Q>e^LL]21
+R8
+31
+R28
+!i10b 1
+Z36 !s108 1535283480.000000
+Z37 !s90 -reportprogress|300|-93|-work|work|C:/Users/Adam-Martin/Documents/Intel/QuartusPrime/NWI_108A1/INTERRUPT.vhd|
+Z38 !s107 C:/Users/Adam-Martin/Documents/Intel/QuartusPrime/NWI_108A1/INTERRUPT.vhd|
+!i113 1
+R13
+R14
+Amalibu
+R2
+R3
+R4
+R5
+DEx4 work 9 interrupt 0 22 VB<h=khmU<:OTaLjfXS?R1
+l24
+L16
+VbEJmbZ_@@UjJS[PT9O4OS0
+!s100 _M[MUZ7fmNk4P@OY[3@fX0
+R8
+31
+R28
+!i10b 1
+R36
+R37
+R38
+!i113 1
+R13
+R14
+Eio_port
+Z39 w1516720916
+R3
+R4
+R5
+R0
+Z40 8C:/Users/Adam-Martin/Documents/Intel/QuartusPrime/NWI_108A1/IO_PORT.vhd
+Z41 FC:/Users/Adam-Martin/Documents/Intel/QuartusPrime/NWI_108A1/IO_PORT.vhd
+l0
+L5
+VOXedM@0N6fBA=d=<58DHA1
+!s100 Yi6FVzZVBII5_mbh4^O002
+R8
+31
+R9
+!i10b 1
+R10
+Z42 !s90 -reportprogress|300|-93|-work|work|C:/Users/Adam-Martin/Documents/Intel/QuartusPrime/NWI_108A1/IO_PORT.vhd|
+Z43 !s107 C:/Users/Adam-Martin/Documents/Intel/QuartusPrime/NWI_108A1/IO_PORT.vhd|
+!i113 1
+R13
+R14
+Amalibu
+R3
+R4
+R5
+DEx4 work 7 io_port 0 22 OXedM@0N6fBA=d=<58DHA1
+l44
+L18
+VfHzNa?dk=Q4Af9h1Bz<j31
+!s100 OFUO5?Wgn5J734TH>e5m[0
+R8
+31
+R9
+!i10b 1
+R10
+R42
+R43
+!i113 1
+R13
+R14
+Enwi_108a1
+Z44 w1516795092
+R3
+R4
+R5
+R0
+Z45 8C:/Users/Adam-Martin/Documents/Intel/QuartusPrime/NWI_108A1/NWI_108A1.vhd
+Z46 FC:/Users/Adam-Martin/Documents/Intel/QuartusPrime/NWI_108A1/NWI_108A1.vhd
+l0
+L5
+VgTgb[UWZlKUkWz2W>>Vn52
+!s100 bKa_jJA;V8gBO:Lj8B;To2
+R8
+31
+R31
+!i10b 1
+R32
+Z47 !s90 -reportprogress|300|-93|-work|work|C:/Users/Adam-Martin/Documents/Intel/QuartusPrime/NWI_108A1/NWI_108A1.vhd|
+Z48 !s107 C:/Users/Adam-Martin/Documents/Intel/QuartusPrime/NWI_108A1/NWI_108A1.vhd|
+!i113 1
+R13
+R14
+Amalibu
+R3
+R4
+R5
+DEx4 work 9 nwi_108a1 0 22 gTgb[UWZlKUkWz2W>>Vn52
+l134
+L16
+V:03eE^7nhBz2IOaRiAgBb2
+!s100 HVCG:hGPiaMncN:Z@L<i63
+R8
+31
+R31
+!i10b 1
+R32
+R47
+R48
+!i113 1
+R13
+R14
+Eram
+Z49 w1516713716
+Z50 DPx9 altera_mf 20 altera_mf_components 0 22 Sn8Ol<dGSW99iM6NfOU>g1
+R4
+R3
+R0
+Z51 8C:/Users/Adam-Martin/Documents/Intel/QuartusPrime/NWI_108A1/RAM.vhd
+Z52 FC:/Users/Adam-Martin/Documents/Intel/QuartusPrime/NWI_108A1/RAM.vhd
+l0
+L43
+V_fDIWSKL@Fb_TdQVAMl6=0
+!s100 d3BTHXn:EBPn>4EV9Did[0
+R8
+31
+R9
+!i10b 1
+R10
+Z53 !s90 -reportprogress|300|-93|-work|work|C:/Users/Adam-Martin/Documents/Intel/QuartusPrime/NWI_108A1/RAM.vhd|
+Z54 !s107 C:/Users/Adam-Martin/Documents/Intel/QuartusPrime/NWI_108A1/RAM.vhd|
+!i113 1
+R13
+R14
+Asyn
+R50
+R4
+R3
+DEx4 work 3 ram 0 22 _fDIWSKL@Fb_TdQVAMl6=0
+l60
+L56
+VW:;RoK@eC6^fiC0VN?6KK1
+!s100 4Vif;iAjQd<46[mihBbE83
+R8
+31
+R9
+!i10b 1
+R10
+R53
+R54
+!i113 1
+R13
+R14
+Erom
+Z55 w1516713720
+R50
+R4
+R3
+R0
+Z56 8C:/Users/Adam-Martin/Documents/Intel/QuartusPrime/NWI_108A1/ROM.vhd
+Z57 FC:/Users/Adam-Martin/Documents/Intel/QuartusPrime/NWI_108A1/ROM.vhd
+l0
+L43
+VFOj>aQl^ok?J`;=MSQhFn0
+!s100 lKLA^6@EHnNC6JE>24LXf0
+R8
+31
+R9
+!i10b 1
+R10
+Z58 !s90 -reportprogress|300|-93|-work|work|C:/Users/Adam-Martin/Documents/Intel/QuartusPrime/NWI_108A1/ROM.vhd|
+Z59 !s107 C:/Users/Adam-Martin/Documents/Intel/QuartusPrime/NWI_108A1/ROM.vhd|
+!i113 1
+R13
+R14
+Asyn
+R50
+R4
+R3
+DEx4 work 3 rom 0 22 FOj>aQl^ok?J`;=MSQhFn0
+l63
+L55
+VZe5Z:3n?D=9XD74Sg?:NV0
+!s100 a]^ZLY4aMm?<CoR<M;H9A3
+R8
+31
+R9
+!i10b 1
+R10
+R58
+R59
+!i113 1
+R13
+R14
+Etimer
+Z60 w1516809656
+R3
+R4
+R5
+R0
+Z61 8C:/Users/Adam-Martin/Documents/Intel/QuartusPrime/NWI_108A1/TIMER.vhd
+Z62 FC:/Users/Adam-Martin/Documents/Intel/QuartusPrime/NWI_108A1/TIMER.vhd
+l0
+L5
+VklGY4dg?lJALj88g6c:^d3
+!s100 H]g;a6RJWghOPJbH`oJgk3
+R8
+31
+R31
+!i10b 1
+R32
+Z63 !s90 -reportprogress|300|-93|-work|work|C:/Users/Adam-Martin/Documents/Intel/QuartusPrime/NWI_108A1/TIMER.vhd|
+Z64 !s107 C:/Users/Adam-Martin/Documents/Intel/QuartusPrime/NWI_108A1/TIMER.vhd|
+!i113 1
+R13
+R14
+Amalibu
+R3
+R4
+R5
+DEx4 work 5 timer 0 22 klGY4dg?lJALj88g6c:^d3
+l44
+L18
+V9;`NQ=M>CZ]RjVBZ6JUKe1
+!s100 ?W_KJH3nFhhY^DZ:bPn]L1
+R8
+31
+R31
+!i10b 1
+R32
+R63
+R64
+!i113 1
+R13
+R14
+Euart
+Z65 w1516312466
+R3
+R4
+R5
+R0
+Z66 8C:/Users/Adam-Martin/Documents/Intel/QuartusPrime/NWI_108A1/UART.vhd
+Z67 FC:/Users/Adam-Martin/Documents/Intel/QuartusPrime/NWI_108A1/UART.vhd
+l0
+L5
+VAoSIEH73S<McC`<Z@i5_U1
+!s100 fhNKQ;;YEXWQ6SLF?4dTN3
+R8
+31
+R31
+!i10b 1
+R32
+Z68 !s90 -reportprogress|300|-93|-work|work|C:/Users/Adam-Martin/Documents/Intel/QuartusPrime/NWI_108A1/UART.vhd|
+Z69 !s107 C:/Users/Adam-Martin/Documents/Intel/QuartusPrime/NWI_108A1/UART.vhd|
+!i113 1
+R13
+R14
+Amalibu
+R3
+R4
+R5
+DEx4 work 4 uart 0 22 AoSIEH73S<McC`<Z@i5_U1
+l73
+L19
+V]jPg5hJ>86CE:2:ZjS@XR3
+!s100 jj:ARh9^4oTC=:aV=906f1
+R8
+31
+R31
+!i10b 1
+R32
+R68
+R69
+!i113 1
+R13
+R14

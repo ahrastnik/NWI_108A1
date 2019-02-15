@@ -1,0 +1,4 @@
+force clk 1 0, 0 {10 ns} -r 20ns
+force rst 1, 0 @60ns
+force pins(1) 0 @400ns, 1 @500ns, 0 @600ns
+run 7000ns
